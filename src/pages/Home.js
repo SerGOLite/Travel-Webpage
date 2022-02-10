@@ -18,7 +18,7 @@ const Home = () => (
             marginTop={5}
             marginBottom={3}
           >
-            Top {city.name} Tours
+            Top {city.name} Touren
             {/* <Box onClick={preventDefault}>
               <Link href="#" underline="none">
                 {"Top {city.name} Tours"}

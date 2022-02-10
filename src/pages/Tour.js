@@ -17,7 +17,7 @@ const Tour = () => (
     </Typography>
     <Box marginTop={3} sx={{ display: "flex" }}>
       <img
-        src="https://media.timeout.com/images/105124791/750/422/image.jpg"
+        src="https://images.unsplash.com/photo-1521197462227-d93940d220b1"
         alt="Bild"
         height={325}
       />
@@ -39,7 +39,7 @@ const Tour = () => (
     </Box>
     <Box marginBottom={10}>
       <Typography variant="h6" component="h4" marginTop={3}>
-        Häufig gestellte Fragen
+        Häufig gestellte Fragen (FAQ)
       </Typography>
       <CustomizedAccordions />
     </Box>
