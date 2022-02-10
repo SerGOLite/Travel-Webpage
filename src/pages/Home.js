@@ -18,12 +18,11 @@ const Home = () => (
             marginTop={5}
             marginBottom={3}
           >
-            Top {city.name} Touren
-            {/* <Box onClick={preventDefault}>
-              <Link href="#" underline="none">
-                {"Top {city.name} Tours"}
-              </Link>
-            </Box> */}
+            {/* Top {city.name} Touren */}
+
+            <Link href="http://localhost:3001/2" underline="none">
+              Top {city.name} Tours
+            </Link>
           </Typography>
           <Grid container spacing={4}>
             {city.tours.map((tour, index) => (
